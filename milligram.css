@@ -26,7 +26,7 @@ textbox {
 .teamup {
     display: flex;
     clear: none;
-    margin: 10px;
+    margin: 20px;
     border-width: 0;
     width: auto;
 }
@@ -311,7 +311,7 @@ a:focus, a:hover {
 }
 
 .navbar {
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
     border: 1px solid #f4f5f6;
     border-width: 1px 0;
