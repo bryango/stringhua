@@ -27,13 +27,16 @@
             </header>
         </div>
         <ul class="navbar">
-            <li><a href="index.html" class="active"> Home </a></li>
-            <li><a href="Seminars.html">Seminars</a></li>
-            <li><a href="Workshops.html">Workshops</a></li>
-            <li><a href="Courses.html">Courses</a></li>
-            <li><a href="People.html">People</a></li>
-            <li><a href="Opportunities.html">Opportunities</a></li>
+            <li><a id="index" href="index.html"> Home </a></li>
+            <li><a id="seminars" href="Seminars.html">Seminars</a></li>
+            <li><a id="workshops" href="Workshops.html">Workshops</a></li>
+            <li><a id="courses" href="Courses.html">Courses</a></li>
+            <li><a id="people" href="People.html">People</a></li>
+            <li><a id="opportunities" href="Opportunities.html">Opportunities</a></li>
         </ul>
+        <script>
+            document.getgetElementById("{{ page.title }}").className = "active"
+        </script>
 
         <br/>
         <br/>
