@@ -1,8 +1,8 @@
 all: update
-    bundle exec jekyll serve -H 0.0.0.0 -t
+	bundle exec jekyll serve -H 0.0.0.0 -t
 
 update:
-    true
+	true
 
 init:
-    bundle install --path vendor/bundle
+	bundle install --path vendor/bundle
